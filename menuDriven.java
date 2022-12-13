@@ -44,6 +44,27 @@ public class menuDriven
         
         System.out.println("Press 1.Add 2.Subtract 3.Multiply 4.Divide 5.Modulas");
         int choice = sc.nextInt();
+
+        switch(choice)
+        {
+            case 1 : sum(x,y);
+            break;
+            
+            case 2: sub(x,y);
+            break;
+            
+            case 3: mult(x,y);
+            break;
+            
+            case 4: div(x,y);
+            break;
+            
+            case 5: mod(x,y);
+            break;
+            
+            default :
+            System.out.print("Wrong Choice");
+        }
     }
 }
 
