@@ -2,6 +2,36 @@ import java.util.Scanner;
 
 public class menuDriven
 {
+        public static void sum(int x,int y)
+        {
+            int result=x+y;
+            System.out.print("Sum is :- "+result);
+        }
+        
+        public static void sub(int x,int y)
+        {
+            int result=x-y;
+            System.out.print("Subtraction is :- "+result);
+        }
+        
+        public static void mult(int x,int y)
+        {
+            int result=x*y;
+            System.out.print("Multiplication is :- "+result);
+        }
+        
+        public static void div(int x,int y)
+        {
+            int result=x/y;
+            System.out.print("Division is :- "+result);
+        }
+        
+        public static void mod(int x,int y)
+        {
+            int result=x%y;
+            System.out.print("Modulas is :- "+result);
+        }
+
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
